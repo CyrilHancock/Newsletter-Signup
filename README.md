@@ -11,12 +11,12 @@ git clone https://github.com/CyrilHancock/Newsletter-Signup.git
  Change process.env.PORT to 3000 in **app.js**.
  Register at MailChimp  and change the api key and server name in mailChimp.
   > mailchimp.setConfig
-  >    ENTER YOUR API KEY HERE
-  >     apiKey: your api key for mailchimp,
-  >      ENTER YOUR API KEY PREFIX HERE i.e.THE SERVER
+  >   1. ENTER YOUR API KEY HERE
+  >    apiKey: your api key for mailchimp,
+  >   2. ENTER YOUR API KEY PREFIX HERE i.e.THE SERVER
   >     server: server name at the end example us-14
 > Also Change the List id to Your List id in Mail chimp.
- >       ENTER YOU LIST ID HERE
+ >    3. ENTER YOU LIST ID HERE
   >      const listId = list id 
            
 
