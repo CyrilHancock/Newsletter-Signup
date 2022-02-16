@@ -18,7 +18,7 @@ git clone https://github.com/CyrilHancock/Newsletter-Signup.git
         server: "server name at the end example us-14"
     
     ```
-4. Also Change the List id to Your List id in Mail chimp.
+ 3.Also Change the List id to Your List id in Mail chimp.
   ```
         ENTER YOU LIST ID HERE
         const listId = "list id ";
