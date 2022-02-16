@@ -8,23 +8,22 @@ Clone the repository by typing
 ```
 git clone https://github.com/CyrilHancock/Newsletter-Signup.git
 ```
-1. Change process.env.PORT to 3000 in **app.js**.
-2. Register at MailChimp  and change the api key and server name in mailChimp.
- ```  
- mailchimp.setConfig
+ Change process.env.PORT to 3000 in **app.js**.
+ Register at MailChimp  and change the api key and server name in mailChimp.
+   ```
+   mailchimp.setConfig
         ENTER YOUR API KEY HERE
-        apiKey: "your api key for mailchimp",
+        apiKey: your api key for mailchimp,
         ENTER YOUR API KEY PREFIX HERE i.e.THE SERVER
-        server: "server name at the end example us-14"
+        server: server name at the end example us-14
     
     ```
-    ```
- 3.Also Change the List id to Your List id in Mail chimp.
+Also Change the List id to Your List id in Mail chimp.
   ```
         ENTER YOU LIST ID HERE
-        const listId = "list id ";
+        const listId = list id ;
        ```    
-4. For Running on Local
+For Running on Local
 
 ```
 node app.js
