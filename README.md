@@ -12,12 +12,12 @@ git clone https://github.com/CyrilHancock/Newsletter-Signup.git
  Register at MailChimp  and change the api key and server name in mailChimp.
   > mailchimp.setConfig
   >   1. ENTER YOUR API KEY HERE
-  >    apiKey: your api key for mailchimp,
+  >    **apiKey: your api key for mailchimp,**
   >   2. ENTER YOUR API KEY PREFIX HERE i.e.THE SERVER
-  >     server: server name at the end example us-14
+  >     **server: server name at the end example us-14**
 > Also Change the List id to Your List id in Mail chimp.
  >    3. ENTER YOU LIST ID HERE
-  >      const listId = list id 
+  >     **const listId = list id **
            
 
 For Running on Local
