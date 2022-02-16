@@ -16,10 +16,7 @@ git clone https://github.com/CyrilHancock/Newsletter-Signup.git
         apiKey: your api key for mailchimp,
         ENTER YOUR API KEY PREFIX HERE i.e.THE SERVER
         server: server name at the end example us-14
-    
-    ```
 Also Change the List id to Your List id in Mail chimp.
-  ```
         ENTER YOU LIST ID HERE
         const listId = list id ;
        ```    
